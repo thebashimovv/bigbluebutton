@@ -16,6 +16,17 @@ const ActionsBarWrapper = styled.section`
   background-color: ${colorBackground};
   position: relative;
   order: 3;
+
+  /* Bilermen: "on" states (mic, screenshare, raised hand...) are green,
+     idle buttons are translucent on the dark bar. Scoped to the bar only;
+     menus open in portals and keep the global button colors. */
+  --btn-primary-bg: #01A771;
+  --btn-primary-hover-bg: #018F61;
+  --btn-primary-active-bg: #017A53;
+  --btn-primary-border: rgba(1, 167, 113, 0.5);
+  --btn-default-bg: rgba(255, 255, 255, 0.1);
+  --btn-default-color: #E4EDF4;
+  --btn-default-border: transparent;
 `;
 
 const Left = styled.div`
@@ -40,13 +51,23 @@ const Left = styled.div`
 const Center = styled.div`
   display: flex;
   flex-direction: row;
+  align-items: center;
   gap: ${smPaddingX};
-  flex: 1;
+  flex: 0 1 auto;
+  margin: 0 auto;
   justify-content: center;
+  padding: .375rem .75rem;
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   > *:not(span):not(:last-child) {
     @media ${smallOnly} {
       margin: 0 ${smPaddingY};
     }
+  }
+  @media ${smallOnly} {
+    padding: .25rem .5rem;
+    gap: .25rem;
   }
 `;
 
@@ -110,7 +131,7 @@ const Separator = styled.div`
   width: 0;
   border: 1px solid ${colorWhite};
   align-self: center;
-  opacity: .75;
+  opacity: .2;
 `;
 
 const Gap = styled.div`
