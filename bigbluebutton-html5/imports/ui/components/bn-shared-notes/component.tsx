@@ -445,7 +445,7 @@ function BlockNoteApp(props: BlockNoteAppProps): React.ReactElement {
             gap: 4px;
             padding-block: 4px;
             flex-shrink: 0;
-            border-bottom: 1px solid #d4d9df;
+            border-bottom: 1px solid #D8E2EA;
           }
           .bn-toolbar-row .bn-formatting-toolbar {
             box-shadow: none;

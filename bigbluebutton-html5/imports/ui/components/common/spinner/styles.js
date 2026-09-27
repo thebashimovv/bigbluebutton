@@ -1,6 +1,6 @@
 import styled, { keyframes } from 'styled-components';
 
-const colorGray = '#4E5A66';
+const colorGray = '#34506A';
 
 const LoadingSpinnerAnimation = keyframes`
   0% {

@@ -48,7 +48,7 @@ const DropzoneRoot = styled(Dropzone)<DropzoneProps>`
 
   &.isDragActive {
     border-color: ${colorPrimary};
-    background-color: rgba(15, 112, 215, 0.08);
+    background-color: rgba(1, 116, 170, 0.08);
   }
 
   ${({ $hasError }) => $hasError && `

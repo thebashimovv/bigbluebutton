@@ -48,7 +48,7 @@ export const AutoPlayWarning = styled.p`
   font-size: x-large;
   color: white;
   width: 100%;
-  background-color: rgba(6,23,42,0.5);
+  background-color: rgba(11, 43, 69,0.5);
   bottom: 20%;
   vertical-align: middle;
   text-align: center;

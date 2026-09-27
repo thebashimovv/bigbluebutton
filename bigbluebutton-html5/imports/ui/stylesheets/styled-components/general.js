@@ -1,10 +1,10 @@
 const borderSizeSmall = '1px';
 const borderSize = '2px';
 const borderSizeLarge = '3px';
-const borderRadius = '.2rem';
-const borderRadiusRounded = '.5rem';
+const borderRadius = '.5rem';
+const borderRadiusRounded = '.75rem';
 const avatarBorderRadius = '50%';
-const moderatorAvatarBorderRadius = '5px';
+const moderatorAvatarBorderRadius = '8px';
 const smPaddingX = '.75rem';
 const smPaddingY = '.3rem';
 const mdPaddingY = '.45rem';
@@ -52,7 +52,7 @@ const toolbarButtonWidth = '3rem';
 const toolbarButtonHeight = '3rem';
 const toolbarItemOutlineOffset = '-.19rem';
 const toolbarButtonBorder = '1px';
-const toolbarButtonBorderRadius = '5px';
+const toolbarButtonBorderRadius = '8px';
 const toolbarItemTrianglePadding = '2px';
 const toolbarMargin = '.8rem';
 

@@ -139,12 +139,12 @@ const ToggleThumb = styled.div`
   `}
 
   ${({ hasFocus }) => hasFocus && `
-    box-shadow: 0px 0px 2px 3px #0F70D7;
+    box-shadow: 0px 0px 2px 3px #0174AA;
   `}
 
   ${({ disabled }) => !disabled && `
     &:active{
-      box-shadow: 0px 0px 5px 5px #0F70D7;
+      box-shadow: 0px 0px 5px 5px #0174AA;
     }
   `}
 `;

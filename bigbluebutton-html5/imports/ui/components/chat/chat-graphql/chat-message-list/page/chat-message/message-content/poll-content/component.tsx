@@ -131,7 +131,7 @@ const ChatPollContent: React.FC<ChatPollContentProps> = ({
               allowDecimals={false}
             />
             <YAxis width={sidebarContent.width / 3} fontSize={fontSize} type="category" dataKey="pollAnswerWithNumVotes" tick={CustomizedAxisTick} />
-            <Bar dataKey="numVotes" fill="#0C57A7" />
+            <Bar dataKey="numVotes" fill="#01628F" />
           </BarChart>
         </ResponsiveContainer>
       </Styled.PollWrapper>
