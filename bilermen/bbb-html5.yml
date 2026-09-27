@@ -1,0 +1,14 @@
+# Bilermen branding overrides for the HTML5 client.
+#
+# Installed on the server as /etc/bigbluebutton/bbb-html5.yml. BigBlueButton
+# merges this file over /usr/share/bigbluebutton/html5-client/private/config/settings.yml,
+# so only display values are changed here and every feature setting keeps its default.
+public:
+  app:
+    # Browser tab title
+    clientTitle: Bilermen
+    # Shown in the "About" dialog
+    copyright: '©2026 Bilermen'
+    # The default help link points to bigbluebutton.org video tutorials.
+    # Set helpLink to your own page and showHelpButton to true to show it again.
+    showHelpButton: false
