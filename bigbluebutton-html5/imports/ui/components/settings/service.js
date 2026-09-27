@@ -53,6 +53,10 @@ export const FALLBACK_LOCALES = {
     englishName: 'Occitan',
     nativeName: 'Occitan',
   },
+  tk: {
+    englishName: 'Turkmen',
+    nativeName: 'Türkmençe',
+  },
   'uz@Cyrl': {
     englishName: 'Uzbek (Cyrillic)',
     nativeName: 'ўзбек тили',
