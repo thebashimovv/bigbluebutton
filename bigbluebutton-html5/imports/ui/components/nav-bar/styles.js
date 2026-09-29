@@ -27,7 +27,7 @@ const Top = styled.div`
   flex-direction: row;
   align-items: center;
   padding: 0 .5rem;
-  border-radius: 14px;
+  border-radius: 12px;
   background-color: rgba(255, 255, 255, 0.06);
   border: 1px solid rgba(255, 255, 255, 0.08);
 `;
@@ -71,7 +71,6 @@ const Center = styled.div`
 
 const PresentationTitle = styled.h1`
   font-weight: 600;
-  letter-spacing: -0.01em;
   color: ${colorWhite};
   font-size: ${fontSizeBase};
   margin: 0;

@@ -5,7 +5,7 @@ const colorBlack = 'var(--color-black, #000000)';
 
 const colorGray = 'var(--color-gray, #34506A)';
 const colorGrayDark = 'var(--color-gray-dark, #0B2B45)';
-const colorGrayLight = 'var(--color-gray-light, #7C93A8)';
+const colorGrayLight = 'var(--color-gray-light, #5B7389)';
 const colorGrayLighter = 'var(--color-gray-lighter, #A5B6C5)';
 const colorGrayLightest = 'var(--color-gray-lightest, #D8E2EA)';
 const colorBorder = 'var(--color-border, #8FA3B5)';
@@ -21,12 +21,12 @@ const colorTransparent = 'var(--color-transparent, #ff000000)';
 const colorUserModerator = 'var(--color-user-moderator, #013F6E)';
 
 const colorPrimary = 'var(--color-primary, #0174AA)';
-const colorDanger = 'var(--color-danger, #E5484D)';
-const colorDangerDark = 'var(--color-danger-dark, #C62F35)';
-const colorSuccess = 'var(--color-success, #01A771)';
-const colorWarning = 'var(--color-warning, #D97706)';
+const colorDanger = 'var(--color-danger, #D63439)';
+const colorDangerDark = 'var(--color-danger-dark, #AE2429)';
+const colorSuccess = 'var(--color-success, #01875C)';
+const colorWarning = 'var(--color-warning, #B45309)';
 const colorOffline = `var(--color-offline, ${colorGrayLight})`;
-const colorMuted = 'var(--color-muted, #5B7389)';
+const colorMuted = 'var(--color-muted, #526A80)';
 const colorMutedBackground = 'var(--color-muted-background, #EEF3F7)';
 
 const colorBackground = `var(--color-background, ${colorGrayDark})`;
@@ -69,7 +69,7 @@ const btnWarningBg = `var(--btn-warning-bg, ${colorWarning})`;
 const btnDangerBorder = `var(--btn-danger-border, ${colorDanger})`;
 const btnDangerColor = `var(--btn-danger-color, ${colorWhite})`;
 const btnDangerBg = `var(--btn-danger-bg, ${colorDanger})`;
-const btnDangerBgHover = 'var(--btn-danger-bg-hover, #C62F35)';
+const btnDangerBgHover = 'var(--btn-danger-bg-hover, #AE2429)';
 
 const btnDarkBorder = `var(--btn-dark-border, ${colorDanger})`;
 const btnDarkColor = `var(--btn-dark-color, ${colorWhite})`;
@@ -126,7 +126,7 @@ const toastErrorBg = `var(--toast-error-bg, ${colorDanger})`;
 const webcamBackgroundColor = 'var(--webcam-background-color, #0B2B45)';
 const webcamPlaceholderBorder = 'var(--webcam-placeholder-border, rgba(255, 255, 255, 0.5))'; // colorWhite, 50%
 
-// rgba version of colorSuccess (01A771) with 15% opacity for talking indicator background
+// Bilermen brand green (01A771) at 15% opacity for the talking indicator background
 const webcamTalkingBackgroundColor = 'var(--webcam-talking-background-color, rgba(1, 167, 113, 0.15))';
 
 const toastWarningColor = `var(--toast-warning-color, ${colorWhite})`;
