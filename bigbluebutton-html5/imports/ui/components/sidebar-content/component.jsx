@@ -99,7 +99,6 @@ const SidebarContent = (props) => {
         bottom: isResizable && resizableEdge.bottom,
         right: isResizable && resizableEdge.right,
       }}
-      className="bm-panel"
       handleWrapperClass="resizeSidebarContentWrapper"
       onResizeStart={() => {
         setIsResizing(true);

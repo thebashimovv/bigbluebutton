@@ -73,7 +73,6 @@ const SidebarNavigation = ({
           right: '-8px',
         },
       }}
-      className="bm-panel"
       handleWrapperClass="resizeSidebarNavWrapper"
       onResizeStart={() => {
         setIsResizing(true);

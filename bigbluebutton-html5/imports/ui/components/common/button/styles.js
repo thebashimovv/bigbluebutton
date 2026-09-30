@@ -375,7 +375,7 @@ const ButtonSpan = styled.span`
   border: none;
   overflow: visible;
   display: inline-block;
-  border-radius: ${borderRadius};
+  border-radius: ${borderSize};
   font-weight: ${btnFontWeight};
   line-height: 1;
   text-align: center;
@@ -839,7 +839,7 @@ const Button = styled(BaseButton)`
   border: none;
   overflow: visible;
   display: inline-block;
-  border-radius: ${borderRadius};
+  border-radius: ${borderSize};
   font-weight: ${btnFontWeight};
   line-height: 1;
   text-align: center;

@@ -25,11 +25,6 @@ const Navbar = styled.header`
 const Top = styled.div`
   display: flex;
   flex-direction: row;
-  align-items: center;
-  padding: 0 .5rem;
-  border-radius: 14px;
-  background-color: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(255, 255, 255, 0.08);
 `;
 
 const Left = styled.div`
@@ -70,8 +65,7 @@ const Center = styled.div`
 `;
 
 const PresentationTitle = styled.h1`
-  font-weight: 600;
-  letter-spacing: -0.01em;
+  font-weight: 400;
   color: ${colorWhite};
   font-size: ${fontSizeBase};
   margin: 0;
@@ -90,7 +84,7 @@ const TitleButton = styled.button`
 
   &:focus-visible {
     outline: 2px solid ${colorWhite};
-    border-radius: 6px;
+    border-radius: 2px;
   }
 
   > [class^="icon-bbb-"] {
