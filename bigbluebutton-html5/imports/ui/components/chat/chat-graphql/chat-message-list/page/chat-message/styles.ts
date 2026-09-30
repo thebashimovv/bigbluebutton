@@ -75,11 +75,11 @@ export const ChatWrapper = styled.div<ChatWrapperProps>`
   }
 
   ${({ isPresentationUpload }) => isPresentationUpload && `
-      border-left: 2px solid #0174AA;
+      border-left: 2px solid #0F70D7;
       margin-top: 1rem;
       padding: 0.5rem;
       word-break: break-word;
-      background-color: #F4F7FA;
+      background-color: #F3F6F9;
     `}
   ${({ messageHighlight }) => messageHighlight && `
     background-color: #fef9f1;

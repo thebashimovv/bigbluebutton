@@ -134,7 +134,7 @@ const Table = styled.table`
 
       &:hover,
       &:focus {
-        background-color: transparentize(#7C93A8, .85);
+        background-color: transparentize(#8B9AA8, .85);
       }
 
       th,

@@ -451,7 +451,7 @@ const ChatMessage = React.forwardRef<ChatMessageRef, ChatMessageProps>(({
       case ChatMessageType.PRESENTATION:
         return {
           name: '',
-          color: '#0174AA',
+          color: '#0F70D7',
           isModerator: false,
           isPresentationUpload: true,
           isSystemSender: true,
@@ -484,7 +484,7 @@ const ChatMessage = React.forwardRef<ChatMessageRef, ChatMessageProps>(({
       case ChatMessageType.BREAKOUT_ROOM:
         return {
           name: message.senderName,
-          color: '#0174AA',
+          color: '#0F70D7',
           isModerator: true,
           isSystemSender: true,
           component: (
@@ -499,7 +499,7 @@ const ChatMessage = React.forwardRef<ChatMessageRef, ChatMessageProps>(({
       case ChatMessageType.API:
         return {
           name: message.senderName,
-          color: '#0174AA',
+          color: '#0F70D7',
           isModerator: true,
           isSystemSender: true,
           component: (
@@ -518,7 +518,7 @@ const ChatMessage = React.forwardRef<ChatMessageRef, ChatMessageProps>(({
           : `${message.senderName} ${intl.formatMessage(intlMessages.userNotAway)}`;
         return {
           name: message.senderName,
-          color: '#0174AA',
+          color: '#0F70D7',
           isModerator: true,
           isSystemSender: true,
           component: (
@@ -542,7 +542,7 @@ const ChatMessage = React.forwardRef<ChatMessageRef, ChatMessageProps>(({
           : `${intl.formatMessage(intlMessages.userIsPresenter, { presenterName: message.senderName })}`;
         return {
           name: message.senderName,
-          color: '#0174AA',
+          color: '#0F70D7',
           isModerator: true,
           isSystemSender: true,
           component: (

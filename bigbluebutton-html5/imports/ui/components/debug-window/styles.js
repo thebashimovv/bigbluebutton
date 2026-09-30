@@ -23,7 +23,7 @@ const DebugWindow = styled.div`
   width: 100%;
   height: 100%;
   background-color: white;
-  border: 2px solid #0B2B45;
+  border: 2px solid #06172A;
 
   &::after {
     content: "";

@@ -17,7 +17,7 @@ const Loaded = styled.div`
 
 const Played = styled.div`
   height: 100%;  
-  background-color: #E5484D;
+  background-color: #DF2721;
 `;
 
 export default {

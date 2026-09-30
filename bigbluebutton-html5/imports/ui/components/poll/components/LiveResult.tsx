@@ -180,7 +180,7 @@ const LiveResult: React.FC<LiveResultProps> = ({
           >
             <XAxis type="number" allowDecimals={false} />
             <YAxis width={type === 'R-' ? (sidebarContent.width / 3) : 70} fontSize={fontSize} type="category" dataKey="optionDesc" tick={<CustomizedAxisTick />} />
-            <Bar dataKey="optionResponsesCount" fill="#01628F" />
+            <Bar dataKey="optionResponsesCount" fill="#0C57A7" />
           </BarChart>
         </ResponsiveContainer>
       </Styled.Stats>

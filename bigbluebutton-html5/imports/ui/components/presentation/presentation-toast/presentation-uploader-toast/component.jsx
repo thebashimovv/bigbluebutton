@@ -392,7 +392,7 @@ function renderToastExportItem(item, intl) {
             loading={loading}
             done={done}
             iconName={icon}
-            color="#0174AA"
+            color="#0F70D7"
           />
         </Styled.StatusIcon>
       </Styled.FileLine>

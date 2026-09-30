@@ -21,7 +21,7 @@ const ELLIPSIS = '...';
 const CustomizedAxisTick = (props: any) => {
   const { payload, ...restProps } = props;
   const { width, fontSize } = restProps;
-  const averageCharWidth = getAverageCharacterWidth(payload.value, 'Inter', fontSize) ?? 6;
+  const averageCharWidth = getAverageCharacterWidth(payload.value, 'Source Sans Pro', fontSize) ?? 6;
   const numberOfChars = Math.floor((width - TICK_SIZE) / averageCharWidth);
   const restValue = payload.value.substring(numberOfChars, payload.value.length);
 

@@ -616,7 +616,7 @@ class ScreenshareComponent extends React.Component {
             height,
             width,
             zIndex: fullscreenContext ? zIndex : undefined,
-            backgroundColor: '#0B2B45',
+            backgroundColor: '#06172A',
           }
         }
       >
