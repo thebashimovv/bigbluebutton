@@ -28,8 +28,8 @@ const Top = styled.div`
   align-items: center;
   padding: 0 .5rem;
   border-radius: 12px;
-  background-color: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background-color: #0F3150;
+  border: 1px solid #25496B;
 `;
 
 const Left = styled.div`
@@ -67,6 +67,8 @@ const Center = styled.div`
   align-items: center;
   width: 70%;
   flex: 1;
+  /* allow shrinking so the right-hand controls (leave, options) stay on screen */
+  min-width: 0;
 `;
 
 const PresentationTitle = styled.h1`

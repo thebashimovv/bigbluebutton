@@ -19,13 +19,14 @@ const ActionsBarWrapper = styled.section`
   order: 3;
 
   /* Bilermen: "on" states (mic, screenshare, raised hand...) are green,
-     idle buttons are translucent on the dark bar. Scoped to the bar only;
-     menus open in portals and keep the global button colors. */
+     idle buttons are lighter navy circles. Scoped to the bar only; menus open
+     in portals and keep the global button colors. Opaque colors (not white
+     alpha) so DarkReader's dark mode keeps them visible. */
   --btn-primary-bg: #01875C;
   --btn-primary-hover-bg: #016E4B;
   --btn-primary-active-bg: #015C3F;
   --btn-primary-border: rgba(1, 135, 92, 0.5);
-  --btn-default-bg: rgba(255, 255, 255, 0.1);
+  --btn-default-bg: #2A5379;
   --btn-default-color: #E4EDF4;
   --btn-default-border: transparent;
 
@@ -37,7 +38,7 @@ const ActionsBarWrapper = styled.section`
     }
   }
   .buttonWrapper:not([aria-disabled="true"]):hover > ${ButtonStyled.ButtonSpan} {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: #36628C;
   }
 `;
 
@@ -68,17 +69,17 @@ const Center = styled.div`
   flex: 0 1 auto;
   margin: 0 auto;
   justify-content: center;
-  padding: .375rem .75rem;
+  padding: 0 .5rem;
   border-radius: 999px;
-  background-color: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #0F3150;
+  border: 1px solid #25496B;
   > *:not(span):not(:last-child) {
     @media ${smallOnly} {
       margin: 0 ${smPaddingY};
     }
   }
   @media ${smallOnly} {
-    padding: .25rem .5rem;
+    padding: 0 .25rem;
     gap: .25rem;
   }
 `;
