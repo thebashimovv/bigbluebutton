@@ -19,10 +19,10 @@ const GlobalStyle = createGlobalStyle`
   // Bilermen: side panels (user list, chat, notes, poll...) as rounded cards
   // separated from the rest of the layout by a thin gutter.
   .bm-panel {
-    border: .5rem solid ${colorBackground};
+    border: .375rem solid ${colorBackground};
   }
   .bm-panel > :not(.resizeSidebarNavWrapper):not(.resizeSidebarContentWrapper) {
-    clip-path: inset(0 round 12px);
+    clip-path: inset(0 round 14px);
   }
 
   // BBBMenu

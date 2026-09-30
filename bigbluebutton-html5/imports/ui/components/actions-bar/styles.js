@@ -3,7 +3,6 @@ import { smallOnly } from '/imports/ui/stylesheets/styled-components/breakpoints
 import { smPaddingX, smPaddingY, barsPadding } from '/imports/ui/stylesheets/styled-components/general';
 import { colorWhite, colorBackground } from '/imports/ui/stylesheets/styled-components/palette';
 import Button from '/imports/ui/components/common/button/component';
-import ButtonStyled from '/imports/ui/components/common/button/styles';
 
 const ActionsBar = styled.div`
   display: flex;
@@ -21,24 +20,13 @@ const ActionsBarWrapper = styled.section`
   /* Bilermen: "on" states (mic, screenshare, raised hand...) are green,
      idle buttons are translucent on the dark bar. Scoped to the bar only;
      menus open in portals and keep the global button colors. */
-  --btn-primary-bg: #01875C;
-  --btn-primary-hover-bg: #016E4B;
-  --btn-primary-active-bg: #015C3F;
-  --btn-primary-border: rgba(1, 135, 92, 0.5);
+  --btn-primary-bg: #01A771;
+  --btn-primary-hover-bg: #018F61;
+  --btn-primary-active-bg: #017A53;
+  --btn-primary-border: rgba(1, 167, 113, 0.5);
   --btn-default-bg: rgba(255, 255, 255, 0.1);
   --btn-default-color: #E4EDF4;
   --btn-default-border: transparent;
-
-  /* Stock default circle buttons have no hover state; make it visible on the dark bar. */
-  ${ButtonStyled.ButtonSpan} {
-    transition: background-color .15s ease-out;
-    @media (prefers-reduced-motion: reduce) {
-      transition: none;
-    }
-  }
-  .buttonWrapper:not([aria-disabled="true"]):hover > ${ButtonStyled.ButtonSpan} {
-    background-color: rgba(255, 255, 255, 0.2);
-  }
 `;
 
 const Left = styled.div`
