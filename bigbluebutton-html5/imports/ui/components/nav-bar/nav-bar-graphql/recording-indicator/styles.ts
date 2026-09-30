@@ -13,7 +13,6 @@ import {
   colorGray,
 } from '/imports/ui/stylesheets/styled-components/palette';
 import SpinnerStyles from '/imports/ui/components/common/loading-screen/styles';
-import { smallOnly } from '/imports/ui/stylesheets/styled-components/breakpoints';
 
 interface RecordingIndicatorIconProps {
   titleMargin: boolean;
@@ -86,13 +85,6 @@ const RecordingControl = styled.button<RecordingIndicatorProps>`
     border: ${borderSizeSmall} solid ${colorWhite};
     border-radius: 2em 2em;
 
-    /* Phones: icon only; the button keeps its aria-label */
-    @media ${smallOnly} {
-      & > div > span:not([id]) {
-        display: none;
-      }
-    }
-
     &:focus {
       padding: 5px;
       border: ${borderSizeLarge} solid ${colorWhite};
@@ -149,10 +141,6 @@ const PresentationTitleSeparator = styled.span`
   color: ${colorGray};
   font-size: ${fontSizeBase};
   margin: 0 1rem;
-
-  @media ${smallOnly} {
-    margin: 0 .5rem;
-  }
 `;
 
 const RecordingIndicator = styled.div<RecordingIndicatorProps>`

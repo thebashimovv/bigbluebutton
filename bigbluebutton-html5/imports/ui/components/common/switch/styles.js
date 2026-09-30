@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 import { borderSize } from '/imports/ui/stylesheets/styled-components/general';
-import { colorDanger, colorSuccess, colorGrayLight } from '/imports/ui/stylesheets/styled-components/palette';
+import { colorDanger, colorSuccess } from '/imports/ui/stylesheets/styled-components/palette';
 
 const Switch = styled.div`
   &:hover,
@@ -49,8 +49,7 @@ const ToggleTrack = styled.div`
   height: 1.5rem;
   padding: 0;
   border-radius: 2rem;
-  /* neutral "off" state; red is reserved for invertColors toggles */
-  background-color: ${colorGrayLight};
+  background-color: ${colorDanger};
 
   [dir="rtl"] & {
     width: 4rem;
@@ -122,7 +121,7 @@ const ToggleTrackX = styled.div`
 const ToggleThumb = styled.div`
   position: absolute;
   top: 1px;
-  left: ${({ isRTL }) => (isRTL ? '2.6rem' : '1px')};
+  left: ${({ isRTL }) => isRTL ? '2.6rem' : '1px'};
   width: 1.35rem;
   height: 1.35rem;
   border-radius: 50%;
@@ -135,7 +134,7 @@ const ToggleThumb = styled.div`
   `}
 
   ${({ checked }) => checked && css`
-    left: ${({ isRTL }) => (isRTL ? '1px' : '2.1rem')};
+    left: ${({ isRTL }) => isRTL ? '1px' : '2.1rem' };
     box-shadow: -2px 0px 10px -1px rgba(0,0,0,0.4);
   `}
 
